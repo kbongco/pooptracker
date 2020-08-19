@@ -27,9 +27,11 @@ function App() {
     poopLog();
   }, [getPoop]);
 
+
+
   return (
     <div className="App" >
-      <h1>Scoop the poop</h1>
+      <h1>Don't Eat Da PooPoo</h1>
       <Route path='/' exact>
         <PoopLog poop={poop} />
       </Route>
